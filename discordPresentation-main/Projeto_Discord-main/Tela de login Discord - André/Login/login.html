@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	
+	<!-- icon -->
+	<link rel="icon" href="/Projeto_Discord-main/img/icon.png">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="/Projeto_Discord-main/Tela de login Discord - André/Login/styles/sectionEsquerda.css">
+	<link rel="stylesheet" href="/Projeto_Discord-main/Tela de login Discord - André/Login/styles/sectionDireita.css">
+	<link rel="stylesheet" href="/Projeto_Discord-main/Tela de login Discord - André/Login/styles/@media.css">
+
+	<!-- JavaScript -->
+	<script type="module" src="/Projeto_Discord-main/Tela de login Discord - André/Login/scripts/scripts.js" defer></script>
+	<script type="module" src="/Projeto_Discord-main/Tela de login Discord - André/Login/mockdata.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+	<main class="containerGeral">
+		<section class="containerEsquerda">
+			<div class="tituloLogin">
+				<h1 class="tituloPrincipal">Bem vindo de volta!</h1>
+				<p class="subTitulo">Estamos tão animados para vê-lo novamente.</p>
+			</div>
+			<br>
+			<div class="containerLogin">
+				<div class="containerEmail">
+					<label for="email">E-mail ou Número de telefone:</label>
+					<br>
+					<input id="email" type="email">
+				</div>
+				<br>
+				<div class="containerSenha">
+					<label for="password">Senha:</label>
+					<br>
+					<input id="password" type="password">
+					<br>
+					<a href="/Projeto_Discord-main/Tela de login Discord - André/EsqueceuSenha/index.html" class="forgotPassword">Esqueceu a senha?</a>
+				</div>
+				<br>
+				<div>
+					<br>
+					<button id="btnEntrar" class="btnEnter">Entrar</button>
+					<br>
+					<p class="createAccount">Criar uma conta? <a
+							href="/Projeto_Discord-main/Tela de login Discord - André/Registra-se/registra.html"
+							class="forgnotPassword">Registra-se</a></p>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="containerDireita">
+			<div class="containerD">
+
+				<div class="image">
+					<div class="image-wrapper"></div>
+				</div>
+
+				<div class="logar"><strong>Logar com QR</strong></div>
+				<br>
+				<div class="code"><strong>CODE</strong></div>
+
+				<div class="description">Escaneie com o aplicativo Discord Mobile para fazer login instantaneamente.
+				</div>
+
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.containerUm {
+    background-color: white;
+    width: 100px;
+    height: 100vh;
+    color: white;
+    align-items: center;
+}
+
+.servidorUm {
+    width: 80%;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 100%;
+    margin-bottom: 50px;
+
+    border: 2px solid black;
+}
+
+.servidorDois, .servidorTres, .servidorQuatro {
+    width: 80%;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.servidorCinco {
+    width: 80%;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 200%;
+}
+
+.servidorSeis {
+    width: 80%;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: blue;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registrar-se</title>
+
+	<!-- icon -->
+	<link rel="icon" href="/Projeto_Discord-main/img/icon.png">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="/Projeto_Discord-main/Tela de login Discord - André/Registra-se/styles/registra.css">
+	<link rel="stylesheet" href="/Projeto_Discord-main/Tela de login Discord - André/Registra-se/styles/@media.css">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.9/dist/sweetalert2.min.css" rel="folha de estilo">
+
+	<!-- JavaScript -->
+	<script type="module" src="/Projeto_Discord-main/Tela de login Discord - André/Registra-se/scripts/scripts.js" defer></script>
+	<script type="module" src="/Projeto_Discord-main/Tela de login Discord - André/Registra-se/scripts/mockdata.js" defer></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.9/dist/sweetalert2.all.min.js"></script>
+	
+	
+</head>
+
+<body>
+
+	<main class="containerGeral">
+
+		
+		
+		<div id="formulario">
+			
+			<h1 class="titulo">Criar uma conta</h1>
+
+			<!-- Entrada Email Dos Usuários -->
+			<div>
+				<label for="iptEmail">EMAIL:</label>
+				<input class="padrao iptCenter" id="iptEmail" type="email" name="email">
+			</div>
+
+			<br>
+			<!-- Entrada Dos Usuários -->
+			<div>
+				<label for="iptName">NOME DE USUÁRIO:</label>
+				<input class="padrao iptCenter" id="iptName" type="text" name="nomeUsuario">
+			</div>
+
+			<br>
+			<!-- Entrada Das Senhas Dos Usuários -->
+			<div>
+				<label for="iptPassword">SENHA:</label>
+				<input class="padrao iptCenter" id="iptPassword" type="password" name="senha">
+			</div>
+
+			<br>
+			<!-- Entrada Das Datas De Nascimento Dos Usuários -->
+			<label for="dia">DATA DE NASCIMENTO:</label>
+
+			<div class="inputs-nascimento">
+				<input class="iptDia padrao" type="number" id="dia" placeholder="SELECIONAR" name="dia" min="1" max="31">
+
+				<label for="mes"></label>
+				<input class="iptMes padrao" type="number" id="mes" placeholder="SELECIONAR" name="mes" min="1" max="12">
+
+				<label for="ano"></label>
+				<input class="iptAno padrao" type="number" id="ano" placeholder="SELECIONAR" name="ano" min="1900" max="9999">
+			</div>
+
+			<br>
+			<br>
+			<!-- Botão Continuar -->
+			<div id="btnFlooter">
+				<button id="btnContinuar" class="btnVoltar btnsPadrao iptCenter"><strong>Continuar</strong></button>
+			</div>
+
+			<!-- Entrada já tenho uma conta -->
+			<div class="containerFlooter">
+				<p class="iptConta"><a href="/Projeto_Discord-main/Tela de login Discord - André/Login/login.html">Já tem uma conta?</a></p>
+				<br>
+				<p class="flooter">Ao se registrar, você concorda com os <a href="https://discord.com/terms">termos de serviço</a> e a <a href="https://support.discord.com/hc/pt-br/sections/115000344951-Privacidade-e-Pol%C3%ADticas">política de privacidade</a> do Discord.</p>
+			</div>
+
+		</div>
+	</main>
+
+</body>
+
+</html>
